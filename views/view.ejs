@@ -1,8 +1,9 @@
 <% data.forEach(blog => { %>
 <div class="card" style="width: 18rem;">
     <div class="card-body">
-        <h5 class="card-title"><%= blog.title %></h5>
+        <h2 class="card-title"><%= blog.title %></h2>
         <p class="card-text"><%= blog.content %></p>
     </div>
 </div>
+<hr>
 <% }) %>
